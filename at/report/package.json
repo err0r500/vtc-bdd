@@ -1,0 +1,8 @@
+{
+  "name": "report",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "cucumber-html-reporter": "^4.0.4"
+  }
+}

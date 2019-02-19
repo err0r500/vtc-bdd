@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cucumber Feature Report</title>
+    <style type="text/css">
+     body {
+    font: 14px Consolas, Courier, monospace;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.failed {
+    color: darkred;
+    font-weight: bold;
+}
+
+.step-error-message {
+    color: darkred;
+    margin: 0 0 0 10px;
+}
+
+.passed {
+    color: green;
+}
+
+.skipped {
+    color: #999;
+}
+
+.step {
+    margin: 4px 0;
+}
+
+.step .text {
+    border-radius: 3px;
+    display: block;
+}
+
+.step .screenshot {
+    border: solid 1px #CCC;
+    height: 100%;
+    width: 100%;
+}
+
+.step-screenshot-wrap {
+    margin-left: 10px;
+}
+
+.container {
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    margin: 10px;
+}
+
+#danger {
+    background-color: #f66666;
+}
+    </style>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    
+<div class="feature container">
+  <h3 class="title"><span class="highlight">Feature: </span>Tout client - Réserver un VTC</h3>
+   <p>Un client veut réserver un VTC de sorte à se déplacer d'un point A à un point B.</p>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde suffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Jean-Michel&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;35&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Marc&quot; de &quot;43 rue Archereau 75019 Paris&quot; à &quot;2 rue Clisson 75013 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation est effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;5&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde suffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Patrick&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;46&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Marc&quot; de &quot;5 rue Clisson 75013 Paris&quot; à &quot;21 rue Laffitte 75009 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation est effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;16&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde suffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;30&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;136 avenue de Flandre 75019 Paris&quot; à &quot;2 Avenue de Flandre 75019 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation est effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;0&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde suffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;50&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;2 Avenue de Flandre 75019 Paris&quot; à &quot;111 avenue Victor Hugo, 93300 Aubervilliers&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation est effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;10&quot; euros TTC avec &quot;0&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde suffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;50&quot; euros TTC avec &quot;51&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;2 Avenue de Flandre 75019 Paris&quot; à &quot;111 avenue Victor Hugo, 93300 Aubervilliers&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation est effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;50&quot; euros TTC avec &quot;1&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde suffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;50&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;111 avenue Victor Hugo, 93300 Aubervilliers&quot; à &quot;2 Avenue de Flandre 75019 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation est effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;50&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde insuffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Jean-Michel&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;0&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Marc&quot; de &quot;43 rue Archereau 75019 Paris&quot; à &quot;2 rue Clisson 75013 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour insuffisance de solde se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;0&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde insuffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Patrick&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;26&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Marc&quot; de &quot;5 rue Clisson 75013 Paris&quot; à &quot;21 rue Laffitte 75009 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour insuffisance de solde se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;26&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde insuffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;29&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;136 avenue de Flandre 75019 Paris&quot; à &quot;2 Avenue de Flandre 75019 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour insuffisance de solde se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;29&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde insuffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;20&quot; euros TTC avec &quot;15&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;136 avenue de Flandre 75019 Paris&quot; à &quot;2 Avenue de Flandre 75019 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour insuffisance de solde se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;20&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>solde insuffisant</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je suis authentifié en tant que &quot;Michael&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;2&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;2 Avenue de Flandre 75019 Paris&quot; à &quot;111 avenue Victor Hugo, 93300 Aubervilliers&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour insuffisance de solde se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> le solde de mon compte est de &quot;2&quot; euros TTC avec &quot;10&quot; euros TTC d&#39;avoir</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>Je ne suis pas authentifié</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je ne suis pas authentifié</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Marc&quot; de &quot;43 rue Archereau 75019 Paris&quot; à &quot;2 rue Clisson 75013 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour identification du client impossible se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>Je ne suis pas authentifié</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je ne suis pas authentifié</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Marc&quot; de &quot;5 rue Clisson 75013 Paris&quot; à &quot;21 rue Laffitte 75009 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour identification du client impossible se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+    <div class="element container">
+    <h3 class="title"><span class="highlight">Scenario Outline: </span>Je ne suis pas authentifié</h3>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text pending">
+            
+            <span class="keyword highlight">Given </span> des clients existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> des VTC existent:</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Given </span> je ne suis pas authentifié</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">When </span> je tente de réserver le VTC &quot;Vincent&quot; de &quot;136 avenue de Flandre 75019 Paris&quot; à &quot;2 Avenue de Flandre 75019 Paris&quot;</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">Then </span> la réservation n&#39;est pas effective</span>
+             
+             
+             
+          </p>
+        </div>
+      
+        <div class="step">
+          <p>
+            
+            <span class="text skipped">
+            
+            <span class="keyword highlight">And </span> et une alerte pour identification du client impossible se lève</span>
+             
+             
+             
+          </p>
+        </div>
+      
+    </div>
+  
+</div>
+ 
+
+    <script>
+        function toggleScreenshot(e){
+    if(this.innerText === "Screenshot -"){
+        this.innerText = "Screenshot +";
+        this.nextElementSibling.style.display = "none";
+    } else {
+        this.innerText = "Screenshot -";
+        this.nextElementSibling.style.display = "block";
+    }
+}
+
+var toggleEls = document.querySelectorAll("a.toggle");
+
+for(var i = 0; i < toggleEls.length; i++){
+    toggleEls[i].addEventListener("click", toggleScreenshot);
+}
+
+    </script>
+  </body>
+</html>

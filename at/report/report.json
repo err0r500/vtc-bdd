@@ -1,0 +1,1252 @@
+[
+    {
+        "uri": "any-member_bookavtc.feature",
+        "id": "tout-client---réserver-un-vtc",
+        "keyword": "Feature",
+        "name": "Tout client - Réserver un VTC",
+        "description": "Un client veut réserver un VTC de sorte à se déplacer d'un point A à un point B.",
+        "line": 1,
+        "elements": [
+            {
+                "id": "tout-client---réserver-un-vtc;solde-suffisant;;2",
+                "keyword": "Scenario Outline",
+                "name": "solde suffisant",
+                "description": "",
+                "line": 24,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 24,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 24,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Jean-Michel\"",
+                        "line": 24,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"35\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 24,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Marc\" de \"43 rue Archereau 75019 Paris\" à \"2 rue Clisson 75013 Paris\"",
+                        "line": 24,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation est effective",
+                        "line": 24,
+                        "match": {
+                            "location": "customerSteps_test.go:42"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"5\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 24,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-suffisant;;3",
+                "keyword": "Scenario Outline",
+                "name": "solde suffisant",
+                "description": "",
+                "line": 25,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 25,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 25,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Patrick\"",
+                        "line": 25,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"46\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 25,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Marc\" de \"5 rue Clisson 75013 Paris\" à \"21 rue Laffitte 75009 Paris\"",
+                        "line": 25,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation est effective",
+                        "line": 25,
+                        "match": {
+                            "location": "customerSteps_test.go:42"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"16\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 25,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-suffisant;;4",
+                "keyword": "Scenario Outline",
+                "name": "solde suffisant",
+                "description": "",
+                "line": 26,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 26,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 26,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 26,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"30\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 26,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"136 avenue de Flandre 75019 Paris\" à \"2 Avenue de Flandre 75019 Paris\"",
+                        "line": 26,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation est effective",
+                        "line": 26,
+                        "match": {
+                            "location": "customerSteps_test.go:42"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"0\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 26,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-suffisant;;5",
+                "keyword": "Scenario Outline",
+                "name": "solde suffisant",
+                "description": "",
+                "line": 27,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 27,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 27,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 27,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"50\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 27,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"2 Avenue de Flandre 75019 Paris\" à \"111 avenue Victor Hugo, 93300 Aubervilliers\"",
+                        "line": 27,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation est effective",
+                        "line": 27,
+                        "match": {
+                            "location": "customerSteps_test.go:42"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"10\" euros TTC avec \"0\" euros TTC d'avoir",
+                        "line": 27,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-suffisant;;6",
+                "keyword": "Scenario Outline",
+                "name": "solde suffisant",
+                "description": "",
+                "line": 28,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 28,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 28,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 28,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"50\" euros TTC avec \"51\" euros TTC d'avoir",
+                        "line": 28,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"2 Avenue de Flandre 75019 Paris\" à \"111 avenue Victor Hugo, 93300 Aubervilliers\"",
+                        "line": 28,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation est effective",
+                        "line": 28,
+                        "match": {
+                            "location": "customerSteps_test.go:42"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"50\" euros TTC avec \"1\" euros TTC d'avoir",
+                        "line": 28,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-suffisant;;7",
+                "keyword": "Scenario Outline",
+                "name": "solde suffisant",
+                "description": "",
+                "line": 29,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 29,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 29,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 29,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"50\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 29,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"111 avenue Victor Hugo, 93300 Aubervilliers\" à \"2 Avenue de Flandre 75019 Paris\"",
+                        "line": 29,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation est effective",
+                        "line": 29,
+                        "match": {
+                            "location": "customerSteps_test.go:42"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"50\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 29,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-insuffisant;;2",
+                "keyword": "Scenario Outline",
+                "name": "solde insuffisant",
+                "description": "",
+                "line": 40,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 40,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 40,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Jean-Michel\"",
+                        "line": 40,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"0\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 40,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Marc\" de \"43 rue Archereau 75019 Paris\" à \"2 rue Clisson 75013 Paris\"",
+                        "line": 40,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 40,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour insuffisance de solde se lève",
+                        "line": 40,
+                        "match": {
+                            "location": "customerSteps_test.go:50"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"0\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 40,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-insuffisant;;3",
+                "keyword": "Scenario Outline",
+                "name": "solde insuffisant",
+                "description": "",
+                "line": 41,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 41,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 41,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Patrick\"",
+                        "line": 41,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"26\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 41,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Marc\" de \"5 rue Clisson 75013 Paris\" à \"21 rue Laffitte 75009 Paris\"",
+                        "line": 41,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 41,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour insuffisance de solde se lève",
+                        "line": 41,
+                        "match": {
+                            "location": "customerSteps_test.go:50"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"26\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 41,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-insuffisant;;4",
+                "keyword": "Scenario Outline",
+                "name": "solde insuffisant",
+                "description": "",
+                "line": 42,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 42,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 42,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 42,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"29\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 42,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"136 avenue de Flandre 75019 Paris\" à \"2 Avenue de Flandre 75019 Paris\"",
+                        "line": 42,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 42,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour insuffisance de solde se lève",
+                        "line": 42,
+                        "match": {
+                            "location": "customerSteps_test.go:50"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"29\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 42,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-insuffisant;;5",
+                "keyword": "Scenario Outline",
+                "name": "solde insuffisant",
+                "description": "",
+                "line": 43,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 43,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 43,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 43,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"20\" euros TTC avec \"15\" euros TTC d'avoir",
+                        "line": 43,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"136 avenue de Flandre 75019 Paris\" à \"2 Avenue de Flandre 75019 Paris\"",
+                        "line": 43,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 43,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour insuffisance de solde se lève",
+                        "line": 43,
+                        "match": {
+                            "location": "customerSteps_test.go:50"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"20\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 43,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;solde-insuffisant;;6",
+                "keyword": "Scenario Outline",
+                "name": "solde insuffisant",
+                "description": "",
+                "line": 44,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 44,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 44,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je suis authentifié en tant que \"Michael\"",
+                        "line": 44,
+                        "match": {
+                            "location": "customerSteps_test.go:30"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"2\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 44,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"2 Avenue de Flandre 75019 Paris\" à \"111 avenue Victor Hugo, 93300 Aubervilliers\"",
+                        "line": 44,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 44,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour insuffisance de solde se lève",
+                        "line": 44,
+                        "match": {
+                            "location": "customerSteps_test.go:50"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "le solde de mon compte est de \"2\" euros TTC avec \"10\" euros TTC d'avoir",
+                        "line": 44,
+                        "match": {
+                            "location": "customerSteps_test.go:34"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;je-ne-suis-pas-authentifié;;2",
+                "keyword": "Scenario Outline",
+                "name": "Je ne suis pas authentifié",
+                "description": "",
+                "line": 54,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 54,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 54,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je ne suis pas authentifié",
+                        "line": 54,
+                        "match": {
+                            "location": "customerSteps_test.go:54"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Marc\" de \"43 rue Archereau 75019 Paris\" à \"2 rue Clisson 75013 Paris\"",
+                        "line": 54,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 54,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour identification du client impossible se lève",
+                        "line": 54,
+                        "match": {
+                            "location": "customerSteps_test.go:58"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;je-ne-suis-pas-authentifié;;3",
+                "keyword": "Scenario Outline",
+                "name": "Je ne suis pas authentifié",
+                "description": "",
+                "line": 55,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 55,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 55,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je ne suis pas authentifié",
+                        "line": 55,
+                        "match": {
+                            "location": "customerSteps_test.go:54"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Marc\" de \"5 rue Clisson 75013 Paris\" à \"21 rue Laffitte 75009 Paris\"",
+                        "line": 55,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 55,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour identification du client impossible se lève",
+                        "line": 55,
+                        "match": {
+                            "location": "customerSteps_test.go:58"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "tout-client---réserver-un-vtc;je-ne-suis-pas-authentifié;;4",
+                "keyword": "Scenario Outline",
+                "name": "Je ne suis pas authentifié",
+                "description": "",
+                "line": 56,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "des clients existent:",
+                        "line": 56,
+                        "match": {
+                            "location": "any-member_bookavtc.feature:6"
+                        },
+                        "result": {
+                            "status": "pending"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "des VTC existent:",
+                        "line": 56,
+                        "match": {
+                            "location": "vtcSteps_test.go:9"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Given ",
+                        "name": "je ne suis pas authentifié",
+                        "line": 56,
+                        "match": {
+                            "location": "customerSteps_test.go:54"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "je tente de réserver le VTC \"Vincent\" de \"136 avenue de Flandre 75019 Paris\" à \"2 Avenue de Flandre 75019 Paris\"",
+                        "line": 56,
+                        "match": {
+                            "location": "customerSteps_test.go:38"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "la réservation n'est pas effective",
+                        "line": 56,
+                        "match": {
+                            "location": "customerSteps_test.go:46"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    },
+                    {
+                        "keyword": "And ",
+                        "name": "et une alerte pour identification du client impossible se lève",
+                        "line": 56,
+                        "match": {
+                            "location": "customerSteps_test.go:58"
+                        },
+                        "result": {
+                            "status": "skipped"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
